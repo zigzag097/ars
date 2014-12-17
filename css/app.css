@@ -1,0 +1,75 @@
+/*body, html {
+    height: 100%;
+}
+.bodywrapper {
+    overflow: auto;
+    height: 100%;
+}
+
+
+.modal-open {
+    overflow: auto;
+}
+body {
+    padding-top: 50px;
+}*/
+body.modal-open,
+.modal-open .navbar-fixed-top,
+.modal-open .navbar-fixed-bottom {
+  margin-right: 0px !important;
+  padding-right:0px !important;
+}
+.modal-open{
+    overflow-y:scroll !important;
+}
+body{
+    overflow-y:scroll;
+    padding-top: 50px;
+}
+.navbar .label {
+    position: relative;
+    top: 11px;
+}
+.top-row {
+    text-align: center;
+    margin: 10px 0;
+}
+.top-row a div {
+    font-size: 10px;
+    line-height: 12px;
+}
+.anim.ng-enter {
+    transition: opacity 1s;
+    opacity: 0.0;
+}
+.anim.ng-enter-active {
+    opacity: 1.0;
+}
+.anim.ng-leave {
+    display: none;
+}
+#loading {
+    position: absolute;
+    width: 300px;
+    top: 10px;
+    left: 500px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: auto;
+}
+#pageData {
+    overflow: scroll;
+    border: 1px blue dashed;
+    margin: 0 auto;
+    width:800px;
+}
+#box2000 > div {
+    -webkit-transition: width 0.2s ease;
+    -moz-transition: width 0.2s ease;
+    -o-transition: width 0.2s ease;
+    -ms-transition: width 0.2s ease;
+    transition: width 0.2s ease;
+}
+#box2000 > div:hover {
+    width: 120%!important;
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+<div class="container" id="content">
+    <nav class="navbar navbar-default" role="navigation" id="topmenu">
+        <ul class="nav navbar-nav">
+            <li ng-repeat="menu in menus">
+                <a href="#/{{section}}/{{menu}}">{{menu}}</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="contents" app-view-segment="1"></div>
+</div>
+

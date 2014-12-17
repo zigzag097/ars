@@ -1,0 +1,10 @@
+<div>
+    <ul style="float:right;list-style-type:none;width:300px;height:200px;overflow-y:auto;overflow-x:hidden;" id="pageData">
+        <li ng-repeat="link in sideLinks" style="margin:10px">
+            <a href="#/{{section}}/{{menu}}/{{link.id}}">{{link.content}}</a>
+        </li>
+    </ul>
+
+    <div app-view-segment="2"></div>
+
+</div>
